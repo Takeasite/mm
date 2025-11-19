@@ -530,4 +530,114 @@ section p,
     line-height: 1.6;
   }
 }
+/* HERO : meilleure mise en page sur mobile */
+@media (max-width: 768px) {
+  #hero {
+    background-attachment: scroll;
+    min-height: auto;
+    padding-top: 90px;   /* laisse respirer sous la navbar */
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }
+
+  .hero-content h2 {
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+  }
+
+  /* On rapproche un peu le bouton du texte */
+  .btn-get-started {
+    padding: 10px 24px;
+    font-size: 0.95rem;
+  }
+
+  /* Portrait un peu plus petit pour ne pas dominer l’écran */
+  .hero-float {
+    width: 220px;
+    margin-top: 15px;
+  }
+}
+/* Navbar : texte un peu plus petit et moins large sur mobile */
+@media (max-width: 768px) {
+  #header .navbar a {
+    font-size: 0.85rem;
+    padding: 4px 6px;
+  }
+
+  #header .logo a {
+    font-size: 22px;
+  }
+
+  .header-container {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 50px 0;
+  }
+
+  section p,
+  .produit-description,
+  .contact-info p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+}
+/* HERO : version mobile corrigée et PRIORITAIRE */
+@media (max-width: 768px) {
+  #hero {
+    background-attachment: scroll; /* évite les bugs iOS/Android */
+    min-height: auto;              /* pas de 100vh rigide */
+    padding-top: 200px;            /* passe bien sous le header 2 lignes */
+    padding-bottom: 50px;
+    align-items: flex-start;       /* plus centré verticalement */
+    text-align: center;
+  }
+
+  #hero .row {
+    flex-direction: column;
+  }
+
+  .hero-content {
+    margin-bottom: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .hero-content h2 {
+    font-size: 1.05rem;
+    margin-bottom: 18px;
+  }
+
+  .btn-get-started {
+    padding: 10px 24px;
+    font-size: 0.95rem;
+  }
+
+  .hero-float {
+    width: 220px;   /* portrait un peu plus petit pour ne pas saturer */
+    margin-top: 10px;
+  }
+}
+/* Empêche tout débordement horizontal de la page */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
