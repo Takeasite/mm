@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Des mots derrière des maux - Maxence Mulocher</title>
+  <meta name="description" content="Recueil de poèmes de Maxence Mulocher, Des mots derrière des maux : des textes où les mots interrogent les maux, entre émotions, vie, amour et espoir.">
+
+  <!-- Styles dynamiques (couleurs + images adaptées au livre) -->
+  <style id="dynamic-styles">
+    :root {
+      /* Couleurs principales */
+      --primary: #1E2945;           /* bleu encre, classe */
+      --secondary: #D4C7B5;         /* beige papier pour accents */
+      --card-bg: #FFFFFF;
+      --border-color: #E1D8CC;
+      --menu-title-color: #1E2945;
+      --menu-subtitle-color: #6C6A6A;
+  
+      --text-dark: #2B2B2B;
+      --text-light: #FDFBF7;
+      --hero-text-color: #FDFBF7;
+  
+      /* Hero : fond abstrait + voile sombre */
+      --hero-bg-image: url('../img/hero-maux.png');
+      --hero-overlay: rgba(6, 10, 22, 0.6);
+  
+      /* Portrait flottant */
+      --hero-float-image: url('../img/photo-auteur.jpeg');
+    }
+  </style>
+  
+  
+
+  <!-- Bootstrap + icônes comme sur ton modèle -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Ton CSS starter -->
+  <link href="css/style_boutique.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header id="header" class="fixed-top">
+    <div class="container header-container">
+      <h1 class="logo">
+        <a href="#hero">Des mots derrière des maux</a>
+      </h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
+          <li><a class="nav-link scrollto" href="#recueil">Le recueil</a></li>
+          <li><a class="nav-link scrollto" href="#extraits">Extraits</a></li>
+          <li><a class="nav-link scrollto" href="#auteur">L’auteur</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact / Achat</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-lg-6 hero-content">
+          <h1>Des mots derrière des maux</h1>
+          <h2>Un recueil de poésie de Maxence Mulocher où les mots interrogent les maux, entre émotions, vie, amour, nature et espoir.</h2>
+          <a href="#recueil" class="btn-get-started scrollto">Découvrir le recueil</a>
+        </div>
+
+        <div class="col-lg-6 hero-img-container">
+          <!-- Image flottante = portrait auteur -->
+          <div class="hero-float">
+            <img src="img/photo-auteur.jpeg"
+                 alt="Portrait de Maxence Mulocher">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION : LE RECUEIL -->
+  <section id="recueil" class="section-bg">
+  <div class="container">
+    <div class="section-title">
+      <h2>Le recueil</h2>
+      <p>Des mots pour apprivoiser les maux</p>
+    </div>
+
+    <div class="row align-items-center">
+
+   <div class="col-md-6 mb-4 mb-md-0">
+    <div class="d-flex justify-content-center gap-4 flex-wrap recueil-images">
+  
+
+        <!-- Recto -->
+        <div class="produit-card livre-visuel">
+          <div class="produit-body">
+            <img src="img/recto.jpg"
+                alt="Couverture du recueil Des mots derrière des maux"
+                class="img-fluid livre-image">
+          </div>
+        </div>
+
+        <!-- Verso -->
+        <div class="produit-card livre-visuel">
+          <div class="produit-body">
+            <img src="img/verso.jpg"
+                alt="Verso du recueil Des mots derrière des maux"
+                class="img-fluid livre-image">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+      <!-- Texte du recueil -->
+      <div class="col-md-6">
+        <p>
+          Ce recueil de poèmes est le fruit d’années d’écriture avec de longs moments de silence.
+          Mais la force des mots n’a d’égal que l’univers imaginaire de l’auteur et la couleur
+          qu’il sait donner à ses émotions. C’est au long de ces quelques trois cents poèmes
+          que vous découvrirez le monde à la fois fantasque et dramatique de Maxence Mulocher,
+          certainement unique dans son style d’écriture.
+        </p>
+        <p class="mt-3">
+          Prix public : <strong>30&nbsp;€</strong>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- SECTION : EXTRAITS -->
+  <section id="extraits">
+    <div class="container">
+      <div class="section-title">
+        <h2>Extraits</h2>
+        <p>Deux poèmes tirés du recueil</p>
+      </div>
+  
+      <div class="produits-grid">
+  
+        <!-- Extrait 1 -->
+        <div class="produit-card extrait-card">
+          <div class="produit-body">
+            <h3>UTROPISME</h3>
+            
+            <p class="produit-description">
+              Dans la chaleur moite<br>
+              D’un tropique exsangue<br>
+              Fleurit la gangrène…
+            </p>
+            <div class="produit-footer">
+              <button class="btn-commander btn-extrait">
+                Lire le poème complet
+              </button>
+            </div>
+  
+            <!-- TEXTE COMPLET CACHÉ -->
+            <div class="extrait-full" style="display:none;">
+              <p style="white-space: pre-line; margin:0;">
+              Dans la chaleur moite
+              D’un tropique exsangue
+              Fleurit la gangrène
+              Les océans arides
+              Que convoitent les perfuseurs d’espoir
+              Se parent de pourpre et de gibets
+              Galonnés des serres aux crocs
+              Des hyènes et des vautours
+              Miraculés de l’indigence
+              S’enivrent d’éphémère
+              Pauvre liberté rivetée
+              Aux squelettes blanchis
+              De campagnes lointaines
+              Triste humanité
+              Entre tyrans et misère
+              Entre déments et chimères
+              Et tandis que s’accumulent
+              Dans les offices dorés
+              Des cols blancs aux bésicles opaques
+              Les constats mièvres et travestis
+              De la pauvreté nue
+              Des mains diaphanes
+              Et des regards éteints
+              S’assoupissent dans le confort
+              Égal de la mort
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Extrait 2 -->
+        <div class="produit-card extrait-card">
+          <div class="produit-body">
+            <h3>N'OUBLIE JAMAIS</h3>
+            <!-- APERÇU COURT -->
+            <p class="produit-description">
+              N'oublie jamais d'où tu viens<br>
+              Pas de honte dans ton passé<br>
+              Même s'il parfois il te paraît ancien…
+            </p>
+            <div class="produit-footer">
+              <button class="btn-commander btn-extrait">
+                Lire le poème complet
+              </button>
+            </div>
+  
+            <!-- TEXTE COMPLET CACHÉ -->
+            <div class="extrait-full" style="display:none;">
+              <p style="white-space: pre-line; margin:0;">
+              N'oublie jamais d'où tu viens
+              Pas de honte dans ton passé
+              Même s'il parfois il te paraît ancien
+              C'est de tes aïeux que tu es né
+              N'oublie jamais tes racines d'antan
+              Elles t'ont fait devenir plus grand
+              Respecte-les avec forte humilité
+              Elles seront ton repère d'éternité
+              N'oublie jamais ceux qui t'ont fait
+              Pour un meilleur et moins que pire
+              C'est ta vie d'aujourd'hui en fait
+              Qui dépend de ce trésor d'empire
+              N'oublies jamais et reste fier
+              Quoiqu'il arrive dans ta vie
+              Dans ses lendemains et ses hiers
+              Regarde bien devant toi à l'infini
+              N'oublie jamais les belles rencontres
+              D'un présent éclairé et plein de sens
+              Même si tu te bats contre la montre
+              Elles te serviront même dans l'absence
+              N'oublie jamais des amis leur présence
+              Car ils seront les piliers de ton futur
+              Et si jamais ils sortaient de ton existence
+              Rappelle-toi à eux par l'écriture
+              N'oublie jamais non plus tes proches
+              Lovés au creux de ta vie solitaire
+              Ils graveront de multiples encoches
+              Cette vie que tu voudrais si solaire
+              N'oublie jamais d'où tu viens
+              Car du futur tu te rapproches
+              Sois-en digne quand à toi reviens
+              Le boomerang d'une vie sans anicroche
+              </p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- SECTION : AUTEUR -->
+  <section id="auteur" class="section-bg">
+    <div class="container">
+      <div class="section-title">
+        <h2>À propos de l’auteur</h2>
+        <p>Le parcours de Maxence Mulocher</p>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-md-4 mb-4 mb-md-0 text-center">
+          <img src="img/photo-auteur.jpeg"
+               alt="Portrait de Maxence Mulocher"
+               class="img-fluid rounded">
+        </div>
+        <div class="col-md-8">
+          <p>
+            Maxence Mulocher est né en 1960 dans la Sarthe. Il est le père de trois filles.
+            Il a suivi un cursus d’ingénieur et a travaillé pendant dix-neuf ans dans le secteur privé.
+            Il a ensuite repris des études universitaires à quarante-quatre ans puis intégré
+            la fonction publique d’État, en poste à l’université du Mans pendant dix-neuf ans également.
+          </p>
+          <p>
+            Jeune retraité très actif, il consacre aujourd’hui une large part de son temps à l’écriture
+            et porte de nombreux projets littéraires.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION : CONTACT / ACHAT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact &amp; achat</h2>
+        <p>Pour obtenir le recueil ou contacter l’auteur</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Des mots derrière des maux</h3>
+          <p><i class="bi bi-book"></i> Recueil de poèmes de Maxence Mulocher</p>
+          <p><i class="bi bi-tag"></i> Prix public : 30&nbsp;€</p>
+
+          <!-- Coordonnées à compléter quand tu auras les infos -->
+          <!-- Exemples : email, réseaux sociaux… -->
+          <!--
+          <p><i class="bi bi-envelope"></i> contact@exemple.fr</p>
+          <p><i class="bi bi-globe"></i> @auteur_sur_reseau</p>
+          -->
+
+          <div class="mt-4">
+            <a href="#"
+               class="btn-commander">
+              Acheter le livre
+            </a>
+            <p class="mt-2">
+              (Lien d’achat à compléter : Amazon ou autre plateforme.)
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-map">
+          <!-- Tu peux remplacer par une image ou laisser vide.
+               Pour l’instant je laisse un bloc neutre. -->
+          <div style="width: 100%; height: 100%; background: #f5f5f5; display:flex; align-items:center; justify-content:center;">
+            <span>Zone visuel ou future carte / formulaire de contact</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <p>© Maxence Mulocher – Site vitrine réalisé avec TakeASite</p>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+<!-- MODAL EXTRAI T -->
+<div id="extrait-modal" class="extrait-modal">
+  <div class="extrait-modal-content">
+    <button class="extrait-modal-close" aria-label="Fermer">&times;</button>
+    <h3 id="extrait-modal-title"></h3>
+    <div id="extrait-modal-body"></div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const modal = document.getElementById('extrait-modal');
+    const modalTitle = document.getElementById('extrait-modal-title');
+    const modalBody = document.getElementById('extrait-modal-body');
+    const closeBtn = modal.querySelector('.extrait-modal-close');
+
+    // Ouverture du modal sur clic
+    document.querySelectorAll('.btn-extrait').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        const card = this.closest('.extrait-card');
+        const title = card.querySelector('h3').innerText;
+        const full = card.querySelector('.extrait-full');
+
+        modalTitle.textContent = title;
+        modalBody.innerHTML = full.innerHTML;
+
+        modal.classList.add('open');
+      });
+    });
+
+    // Fermeture
+    function closeModal() {
+      modal.classList.remove('open');
+    }
+
+    closeBtn.addEventListener('click', closeModal);
+
+    // Clic en dehors de la boîte
+    modal.addEventListener('click', function (e) {
+      if (e.target === modal) {
+        closeModal();
+      }
+    });
+
+    // Touche Échap
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && modal.classList.contains('open')) {
+        closeModal();
+      }
+    });
+  });
+</script>
+
+
+
+</body>
+</html>
