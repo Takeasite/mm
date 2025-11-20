@@ -27,7 +27,7 @@
       --hero-overlay: rgba(6, 10, 22, 0.6);
   
       /* Portrait flottant */
-      --hero-float-image: url('../img/photo-auteur.jpeg');
+      --hero-float-image: url('../img/photo-auteur.jpg');
     }
   </style>
   
@@ -55,6 +55,9 @@
           <li><a class="nav-link scrollto" href="#recueil">Le recueil</a></li>
           <li><a class="nav-link scrollto" href="#extraits">Extraits</a></li>
           <li><a class="nav-link scrollto" href="#auteur">L’auteur</a></li>
+          
+          <li><a class="nav-link scrollto" href="#avis">Avis des lecteurs</a></li>
+          
           <li><a class="nav-link scrollto" href="#contact">Contact / Achat</a></li>
         </ul>
       </nav>
@@ -75,7 +78,7 @@
         <div class="col-lg-6 hero-img-container">
           <!-- Image flottante = portrait auteur -->
           <div class="hero-float">
-            <img src="img/photo-auteur.jpeg"
+            <img src="img/photo-auteur.jpg"
                  alt="Portrait de Maxence Mulocher">
           </div>
         </div>
@@ -130,8 +133,12 @@
           certainement unique dans son style d’écriture.
         </p>
         <p class="mt-3">
-          Prix public : <strong>30&nbsp;€</strong>
+          Prix public : <strong>30&nbsp;€</strong><br>
+          <span style="color:var(--primary); font-weight:600;">
+            Frais de port Colissimo (10&nbsp;€) offerts jusqu’au 31 décembre 2025.
+          </span>
         </p>
+        
       </div>
 
     </div>
@@ -194,6 +201,7 @@
               Et des regards éteints
               S’assoupissent dans le confort
               Égal de la mort
+
               </p>
             </div>
           </div>
@@ -218,38 +226,38 @@
             <!-- TEXTE COMPLET CACHÉ -->
             <div class="extrait-full" style="display:none;">
               <p style="white-space: pre-line; margin:0;">
-              N'oublie jamais d'où tu viens
-              Pas de honte dans ton passé
-              Même s'il parfois il te paraît ancien
-              C'est de tes aïeux que tu es né
-              N'oublie jamais tes racines d'antan
-              Elles t'ont fait devenir plus grand
-              Respecte-les avec forte humilité
-              Elles seront ton repère d'éternité
-              N'oublie jamais ceux qui t'ont fait
-              Pour un meilleur et moins que pire
-              C'est ta vie d'aujourd'hui en fait
-              Qui dépend de ce trésor d'empire
-              N'oublies jamais et reste fier
-              Quoiqu'il arrive dans ta vie
-              Dans ses lendemains et ses hiers
-              Regarde bien devant toi à l'infini
-              N'oublie jamais les belles rencontres
-              D'un présent éclairé et plein de sens
-              Même si tu te bats contre la montre
-              Elles te serviront même dans l'absence
-              N'oublie jamais des amis leur présence
-              Car ils seront les piliers de ton futur
-              Et si jamais ils sortaient de ton existence
-              Rappelle-toi à eux par l'écriture
-              N'oublie jamais non plus tes proches
-              Lovés au creux de ta vie solitaire
-              Ils graveront de multiples encoches
-              Cette vie que tu voudrais si solaire
-              N'oublie jamais d'où tu viens
-              Car du futur tu te rapproches
-              Sois-en digne quand à toi reviens
-              Le boomerang d'une vie sans anicroche
+                N'oublie jamais d'où tu viens
+                Pas de honte dans ton passé
+                Même s'il parfois il te paraît ancien
+                C'est de tes aïeux que tu es né
+                N'oublie jamais tes racines d'antan
+                Elles t'ont fait devenir plus grand
+                Respecte-les avec forte humilité
+                Elles seront ton repère d'éternité
+                N'oublie jamais ceux qui t'ont fait
+                Pour un meilleur et moins que pire
+                C'est ta vie d'aujourd'hui en fait
+                Qui dépend de ce trésor d'empire
+                N'oublie jamais et reste fier
+                Quoiqu'il arrive dans ta vie
+                Dans ses lendemains et ses hiers
+                Regarde bien devant toi à l'infini
+                N'oublie jamais les belles rencontres
+                D'un présent éclairé et plein de sens
+                Même si tu te bats contre la montre
+                Elles te serviront même dans l'absence
+                N'oublie jamais des amis leur présence
+                Car ils seront les piliers de ton futur
+                Et si jamais ils sortaient de ton existence
+                Rappelle-toi à eux par l'écriture
+                N'oublie jamais non plus tes proches
+                Lovés au creux de ta vie solitaire
+                Ils graveront de multiples encoches
+                Cette vie que tu voudrais si solaire
+                N'oublie jamais d'où tu viens
+                Car du futur tu te rapproches
+                Sois-en digne quand à toi reviens
+                Le boomerang d'une vie sans anicroche
               </p>
             </div>
           </div>
@@ -270,7 +278,7 @@
 
       <div class="row align-items-center">
         <div class="col-md-4 mb-4 mb-md-0 text-center">
-          <img src="img/photo-auteur.jpeg"
+          <img src="img/photo-auteur.jpg"
                alt="Portrait de Maxence Mulocher"
                class="img-fluid rounded">
         </div>
@@ -290,48 +298,112 @@
     </div>
   </section>
 
-  <!-- SECTION : CONTACT / ACHAT -->
+  <!-- SECTION : AVIS DES LECTEURS (cachée tant qu'il n'y en a pas) -->
+  <section id="avis" class="section-bg">
+    <div class="container">
+      <div class="section-title">
+        <h2>Avis des lecteurs</h2>
+        <p>Ils ont lu « Des mots derrière des maux »</p>
+      </div>
+
+      <div class="produits-grid">
+
+        <!-- Exemple de structure pour un avis (à remplir quand Maxence t'envoie les textes) -->
+        
+        <div class="produit-card">
+          <div class="produit-body">
+            <p class="produit-description">
+              <em>« Un recueil profondément émouvant, à la fois lumineux et lucide. »</em><br>
+              — Prénom Nom
+            </p>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </section>
+
+
   <section id="contact">
     <div class="container">
       <div class="section-title">
         <h2>Contact &amp; achat</h2>
         <p>Pour obtenir le recueil ou contacter l’auteur</p>
       </div>
-
+  
       <div class="contact-grid">
+  
+        <!-- COLONNE 1 : ACHAT AMAZON -->
         <div class="contact-info">
-          <h3>Des mots derrière des maux</h3>
-          <p><i class="bi bi-book"></i> Recueil de poèmes de Maxence Mulocher</p>
+          <h3>Achat en ligne</h3>
+  
+          <p><i class="bi bi-book"></i> Recueil de Maxence Mulocher</p>
           <p><i class="bi bi-tag"></i> Prix public : 30&nbsp;€</p>
-
-          <!-- Coordonnées à compléter quand tu auras les infos -->
-          <!-- Exemples : email, réseaux sociaux… -->
-          <!--
-          <p><i class="bi bi-envelope"></i> contact@exemple.fr</p>
-          <p><i class="bi bi-globe"></i> @auteur_sur_reseau</p>
-          -->
-
-          <div class="mt-4">
-            <a href="#"
-               class="btn-commander">
-              Acheter le livre
+          <p><i class="bi bi-truck"></i>
+            Frais de port Colissimo (10&nbsp;€) offerts jusqu’au 31 décembre 2025.
+          </p>
+  
+          <h4 class="mt-4">Version brochée</h4>
+          <p>ISBN : <strong>B0FX64VHL7</strong></p>
+  
+          <p>
+            <a href="https://www.amazon.fr/mots-derri%C3%A8re-maux-Maxence-Mulocher/dp/B0FX64VHL7/ref=monarch_sidesheet_title"
+               target="_blank"
+               class="btn-commander"
+               style="background:#FF9900; border-color:#FF9900; color:#fff;">
+              Acheter sur Amazon
             </a>
-            <p class="mt-2">
-              (Lien d’achat à compléter : Amazon ou autre plateforme.)
-            </p>
-          </div>
+          </p>
+  
+          <h4 class="mt-4">Version numérique</h4>
+          <p>ISBN : <strong>B0FX4XD7F7</strong></p>
+  
+          <p>
+            <a href="https://www.amazon.fr/mots-derri%C3%A8re-maux-Maxence-Mulocher-ebook/dp/B0FX4XD7F7/ref=tmm_kin_swatch_0"
+               target="_blank"
+               class="btn-commander"
+               style="background:#146EB4; border-color:#146EB4; color:#fff;">
+              Version Kindle
+            </a>
+          </p>
         </div>
-
-        <div class="contact-map">
-          <!-- Tu peux remplacer par une image ou laisser vide.
-               Pour l’instant je laisse un bloc neutre. -->
-          <div style="width: 100%; height: 100%; background: #f5f5f5; display:flex; align-items:center; justify-content:center;">
-            <span>Zone visuel ou future carte / formulaire de contact</span>
-          </div>
+  
+        <!-- COLONNE 2 : COMMANDE DIRECTE + BON PDF -->
+        <div class="contact-info">
+          <h3>Commander directement auprès de l’auteur</h3>
+  
+          <p>
+            Pour recevoir un exemplaire avec une
+            <strong>dédicace personnalisée</strong>, vous pouvez commander
+            directement auprès de l’auteur.
+          </p>
+  
+          <p>
+            <i class="bi bi-person"></i> Maxence Mulocher<br>
+            <i class="bi bi-geo-alt"></i> 7 lotissement des hauts de Vallon,<br>
+            72540 Vallon sur Gée
+          </p>
+  
+          <p>
+            Paiement par <strong>chèque bancaire</strong> uniquement
+            (voir détails sur le bon de commande).
+          </p>
+  
+          <p class="mt-3">
+            <a class="btn-commander"
+               href="Bon de commande.pdf"
+               download>
+              Télécharger le bon de commande PDF
+            </a>
+          </p>
         </div>
+  
       </div>
     </div>
   </section>
+  
+  
 
   <!-- FOOTER -->
   <footer id="footer">
