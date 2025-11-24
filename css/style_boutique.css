@@ -130,7 +130,18 @@ img {
   display: flex;
   align-items: center;
   color: var(--hero-text-color, #ffffff);
-  padding-top: 100px;
+  padding-top: 120px;  
+}
+@media (max-width: 768px) {
+  #hero {
+    padding-top: 240px;
+  }
+}
+
+@media (max-width: 576px) {
+  #hero {
+    padding-top: 240px;
+  }
 }
 
 .hero-content h1 {
@@ -611,7 +622,7 @@ select:focus {
 @media (orientation: landscape) and (max-height: 600px) {
   #hero {
     min-height: auto;
-    padding-top: 100px;
+    padding-top: 180px;
     padding-bottom: 30px;
   }
   
@@ -653,7 +664,7 @@ select:focus {
   }
   
   #hero {
-    padding-top: 80px;
+    padding-top: 220px;
     padding-bottom: 20px;
   }
   
@@ -674,6 +685,18 @@ select:focus {
   .btn-get-started {
     padding: 8px 20px;
     font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) and (orientation: landscape) {
+  #hero {
+    padding-top: 220px;
+  }
+}
+
+@media (max-width: 400px) and (orientation: landscape) {
+  #hero {
+    padding-top: 220px;
   }
 }
 
@@ -739,7 +762,7 @@ select:focus {
   #hero {
     background-attachment: scroll;
     min-height: auto;
-    padding-top: 100px;
+    padding-top: 220px;
     padding-bottom: 60px;
   }
   
@@ -1012,7 +1035,7 @@ select:focus {
   }
 
   #hero {
-    padding-top: 190px;
+    padding-top: 220px;
   }
 
   .hero-content h1 {
