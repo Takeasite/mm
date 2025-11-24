@@ -130,18 +130,7 @@ img {
   display: flex;
   align-items: center;
   color: var(--hero-text-color, #ffffff);
-  padding-top: 120px;  
-}
-@media (max-width: 768px) {
-  #hero {
-    padding-top: 240px;
-  }
-}
-
-@media (max-width: 576px) {
-  #hero {
-    padding-top: 240px;
-  }
+  padding-top: 100px;
 }
 
 .hero-content h1 {
@@ -664,7 +653,7 @@ select:focus {
   }
   
   #hero {
-    padding-top: 220px;
+    padding-top: 200px;
     padding-bottom: 20px;
   }
   
@@ -696,7 +685,7 @@ select:focus {
 
 @media (max-width: 400px) and (orientation: landscape) {
   #hero {
-    padding-top: 220px;
+    padding-top: 200px;
   }
 }
 
@@ -762,7 +751,7 @@ select:focus {
   #hero {
     background-attachment: scroll;
     min-height: auto;
-    padding-top: 220px;
+    padding-top: 100px;
     padding-bottom: 60px;
   }
   
@@ -1035,7 +1024,7 @@ select:focus {
   }
 
   #hero {
-    padding-top: 220px;
+    padding-top: 190px;
   }
 
   .hero-content h1 {
